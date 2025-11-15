@@ -1,9 +1,18 @@
+import { Link } from "react-router-dom";
 import CommonWrapper from "../common/CommonWrapper";
 
 const Home = () => {
   return (
     <CommonWrapper>
       <div className="h-screen bg-[#2C3E50]">
+        <div className="flex justify-end py-4 px-6">
+          <Link
+            to="/admin"
+            className="px-6 py-3 bg-[#E74C3C] text-white rounded-2xl"
+          >
+            Admin Dashboard
+          </Link>
+        </div>
         <div className="flex flex-col items-center justify-center min-h-screen ">
           <h1 className="text-2xl font-bold mb-4">Home Page</h1>
           <h2 className="text-xl font-bold">Welcome to the Home Page </h2>
