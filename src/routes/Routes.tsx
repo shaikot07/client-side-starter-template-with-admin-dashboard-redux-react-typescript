@@ -4,7 +4,6 @@ import About from "../pages/About";
 import Contact from "../pages/Contact";
 import NotFound from "../pages/NotFound";
 import Home from "../pages/Home";
-import AdminRoute from "./AdminRoutes";
 import AdminDashboard from "@/pages/Admin/AdminDashboard";
 import Login from "@/pages/Login";
 import Signup from "@/pages/Signup";
