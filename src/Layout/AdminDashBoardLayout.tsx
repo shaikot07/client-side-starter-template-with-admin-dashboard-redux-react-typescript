@@ -176,7 +176,8 @@ function AdminDashBoardLayout() {
             leaveFrom="translate-x-0"
             leaveTo="-translate-x-full"
           >
-            <div className="flex h-full flex-col bg-white shadow-xl">
+            {/* here the mobile screen will show */}
+            <div className="flex h-full flex-col bg-pink-800 shadow-xl">
               <div className="absolute top-0 right-0 -mr-12 pt-2">
                 <button
                   type="button"
