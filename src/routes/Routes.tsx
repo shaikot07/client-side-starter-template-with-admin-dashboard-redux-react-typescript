@@ -9,6 +9,7 @@ import AdminDashboard from "@/pages/Admin/AdminDashboard";
 import Login from "@/pages/Login";
 import Signup from "@/pages/Signup";
 import Services from "@/pages/Services";
+import AdminDashBoardLayout from "@/Layout/AdminDashBoardLayout";
 
 const routes = createBrowserRouter([
   {
@@ -42,7 +43,7 @@ const routes = createBrowserRouter([
       },
       {
         path: "/admin",
-        element: <AdminRoute />, // This will check if the user is an admin
+        element: <AdminDashBoardLayout />, // this layout for admin dashboard
         children: [
           { path: "", element: <AdminDashboard /> }, // Admin Dashboard
         ],
