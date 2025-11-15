@@ -11,4 +11,7 @@ export default defineConfig({
       "@": path.resolve(__dirname, "./src"),
     },
   },
+  define: {
+    __OWNER_SIGNATURE__: JSON.stringify("Saiful_islam_shaikot"),
+  },
 });
